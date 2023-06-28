@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Diario Digital</title>
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.m in.js"></script>
+</head>
+<body>
+    <!--fecha-->
+
+    <div>
+        <h4 id="display_date">FECHA</h4>
+    </div>
+    <!--input-->
+    <div>
+        <h4>Ingresa el texto</h4>
+        <textarea id="text" name="text_input" rows="4" maxlength="200" placeholder="¿qué tal tu dia ?"></textarea>
+    </div>
+    <!--boton para predecir -->
+    <div>
+        <button id="predict_button" type="submit">
+            Predecir emoción
+        </button>
+        <br>
+        <br>
+    </div>
+    <!--emocion que se predijo-->
+    <div>
+        <p id ="prediccion" style="display: block;" > </p>
+        <img id="emo_img_url" src="" width="55" min-height="50" style="display: block;"/>
+
+</body>
+</html>
